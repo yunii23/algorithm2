@@ -1,6 +1,8 @@
+package algorithm2.Onedimensional_arrangement;
+
 import java.util.*;
 
-//백준 1546 평균
+//백준 1차원 배열 1546 평균
 public class java_220203_1546 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
