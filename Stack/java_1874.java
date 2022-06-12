@@ -22,7 +22,7 @@ public class java_1874 {
 
             // 1 ~ 첫번째 수열 입력값까지 push
             if (value > start) {
-                System.out.println("들어옴1");
+                //System.out.println("들어옴1");
                 for (int i = start + 1; i <= value; i++) {
                     stack.push(i);
                     sb.append("+").append("\n");
@@ -33,13 +33,13 @@ public class java_1874 {
 
             // top이 입력값과 같지 않을 경우
             else if (stack.peek() != value) {
-                System.out.println("들어옴2");
+                //System.out.println("들어옴2");
                 System.out.println("NO");
                 return; // 종료
             }
 
             // value 까지 push 되었다면 pop
-            System.out.println("들어옴3");
+            //System.out.println("들어옴3");
             stack.pop();
             sb.append("-").append("\n");
         }
