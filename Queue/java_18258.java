@@ -56,58 +56,50 @@ public class java_18258 {
     }
 
     public static void push(int i) {
-        queue[size] = i;
         size ++;
         back ++;
+        queue[back] = i;
     }
 
     public static void pop() {
         if(size == 0) {
-            System.out.println("pop " + "-1");
             sb.append(-1).append("\n");
             return;
         }
-        System.out.println("pop2 " + queue[front] + " " + size);
         sb.append(queue[front]).append("\n");
         queue[front] = 0;
         front ++;
+        size --;
     }
 
     public static void Size() {
-        System.out.println("size " + size);
         sb.append(size).append("\n");
     }
 
     public static void empty() {
         if(size == 0) {
-            System.out.println("empty " + 1);
             sb.append(1).append("\n");
         }
         else {
-            System.out.println("empty2 " + 0 + " " + size);
             sb.append(0).append("\n");
         }
     }
 
     public static void Front() {
         if(size == 0) {
-            System.out.println("Front " + "-1");
             sb.append(-1).append("\n");
         }
         else {
-            System.out.println("Front2 " + front + " " + size);
-            sb.append(front).append("\n");
+            sb.append(queue[front]).append("\n");
         }
     }
 
     public static void Back() {
         if(size == 0) {
-            System.out.println("Back " + "-1");
             sb.append(-1).append("\n");
         }
         else {
-            System.out.println("Back2 " + back + " " + size);
-            sb.append(back).append("\n");
+            sb.append(queue[back]).append("\n");
         }
     }
 }
