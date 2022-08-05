@@ -29,12 +29,12 @@ public class java_2480 {
             result = 1000 + arr[0] * 100;
         }
 
-        else if (arr[0] == arr[2] && arr[0] != arr[2]) {
+        else if (arr[0] == arr[2] && arr[1] != arr[2]) {
             result = 1000 + arr[0] * 100;
         }
 
         else if (arr[1] == arr[2] && arr[0] != arr[2]) {
-            result = 1000 + arr[0] * 100;
+            result = 1000 + arr[1] * 100;
         }
 
         else {
