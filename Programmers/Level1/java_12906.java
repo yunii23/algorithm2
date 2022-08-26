@@ -22,7 +22,6 @@ public class java_12906 {
             answer[i] = stack.get(i);
         }
         System.out.println(Arrays.toString(answer));
-        // int[] distinct = Arrays.stream(arr).distinct().toArray();
-        // System.out.println(Arrays.toString(distinct));
+
     }
 }
