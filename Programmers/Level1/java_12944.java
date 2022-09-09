@@ -1,7 +1,6 @@
 package algorithm2.Programmers.Level1;
 
 import java.text.DecimalFormat;
-import java.util.Arrays;
 
 public class java_12944 {
     // 프로그래머스 레벨1 평균 구하기
