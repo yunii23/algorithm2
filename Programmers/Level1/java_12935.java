@@ -16,11 +16,8 @@ public class java_12935 {
         }
         else {
             int[] arrMin = Arrays.copyOf(arr, arr.length);
-            System.out.println(Arrays.toString(arr));
             Arrays.sort(arrMin);
-            System.out.println(Arrays.toString(arrMin));
-            System.out.println(Arrays.toString(arr));
-
+            
             answer = new int[arr.length-1];
 
             int count = 0;
