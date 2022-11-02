@@ -1,7 +1,6 @@
 package algorithm2.Programmers.Level1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class java_86051 {
     // 프로그래머스 레벨1 없는 숫자 더하기
